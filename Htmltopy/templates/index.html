@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+  <form class="grid" action="/result" method="POST" enctype="multipart/form-data">
+
+  <center>
+    {% if name  %}
+    <h3 style="color:aqua"> Hello name, Hello World</h3>
+    {% endif  %}
+  </center>
+
+  <label for = "file"> Input files you want to encrypt: </label>
+    <input type="file" name ="file">
+  <input type="submit" value="Submit">
+</form>
+
+
+
+</body>
+</html>
+
